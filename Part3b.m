@@ -1,7 +1,7 @@
 function D = Part3b()
 clear all
 
-Cn=[0.01;0.001;0.00001]; % capacitance values
+Cn=[0.01;0.0001;0.000001]; % capacitance values
 for i=1:3
     
 G=zeros(8,8);
@@ -79,7 +79,7 @@ end
 
 %% 
 clear V
-ts=[100;1000;10000]; % time values
+ts=[100;1000;50000]; % time values
 for i=1:3
     
 G=zeros(8,8);
